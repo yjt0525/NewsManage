@@ -1,0 +1,15 @@
+.login {
+    width: 350px;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 25%;
+    box-shadow: 0 0 25px #cac6c6;
+    .title {
+        margin-bottom: 25px;
+    }
+}
