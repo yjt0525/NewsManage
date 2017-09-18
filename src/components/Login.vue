@@ -41,7 +41,7 @@ export default {
             this.$refs['loginForm'].validate(function(valid){
                 if(valid){
                     me.$message.success('登录成功');
-                    me.$router.push({path:'manage/newsnamage'});
+                    me.$router.push({path:'manage/newslist'});
                 }
             })
         }

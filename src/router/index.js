@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/components/Login'
 import Manage from '@/components/Manage/Manage'
-import NewsManage from '@/components/Manage/NewsManage'
-
+import NewsList from '@/components/Manage/NewsList'
+import NewsAdd from '@/components/Manage/NewsAdd'
 
 import '../assets/css/main.css';
 import 'element-ui/lib/theme-default/index.css'
@@ -23,7 +23,8 @@ export default new Router({
         name: 'Manage',
         component: Manage,
         children: [
-            { path: 'newsnamage', component: NewsManage, name: 'newsnamage' }
+            { path: 'newslist', component: NewsList, name: 'newslist' },
+            { path: 'newsadd', component: NewsAdd, name: 'newsadd' }
         ]
     }]
 })

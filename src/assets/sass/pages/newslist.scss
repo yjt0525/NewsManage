@@ -1,0 +1,48 @@
+.header-operation {
+    background: #e1e1e1;
+    padding: 10px 20px;
+    .el-form-item {
+        margin: 0;
+    }
+}
+
+.card-list {
+    overflow: hidden;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    .el-card {
+        // float: left;
+        width: 24%;
+        margin: 10px 1% 10px 0;
+        .el-card__header {
+            padding-bottom: 0;
+            font-size: 20px;
+            border-bottom: none;
+        }
+        .news-content {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .news-otherinfo {
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+            overflow: hidden;
+            color: #999;
+            >div {
+                float: left;
+                padding: 5px;
+            }
+            .remove-news {
+                float: right;
+                margin-top: -7px;
+            }
+            .news-type {
+                border: 1px solid #3399ff;
+                border-radius: 5px;
+                color: #3399ff;
+                margin-right: 15px;
+            }
+        }
+    }
+}
