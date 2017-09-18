@@ -6,8 +6,8 @@
             </el-form-item>
             <el-form-item label="新闻类型" prop="newstype">
                 <el-select v-model="form.newstype" placeholder="请选择活动区域">
-                    <el-option label="类型1" value="shanghai"></el-option>
-                    <el-option label="类型2" value="beijing"></el-option>
+                    <el-option label="类型1" value="1"></el-option>
+                    <el-option label="类型2" value="2"></el-option>
                 </el-select>
             </el-form-item>
             <el-form-item label="新闻内容" prop="newscontent">
@@ -57,7 +57,7 @@ export default {
                     }).then(() => {
                         me.$message.success('添加成功');
                     }).catch(function(){
-
+                        
                     })
                  }
              })

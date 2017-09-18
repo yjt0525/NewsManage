@@ -203,12 +203,27 @@ body {
   .manage .headbar {
     height: 70px;
     line-height: 70px;
-    background: #f00; }
+    background: #324157;
+    padding-right: 50px; }
+    .manage .headbar .logo {
+      width: 200px;
+      float: left;
+      height: 100%;
+      padding: 10px 5px; }
+      .manage .headbar .logo img {
+        width: 100%;
+        height: 100%; }
+    .manage .headbar .operation {
+      float: right;
+      color: #fff; }
+      .manage .headbar .operation button {
+        background: #324157;
+        border-color: #324157; }
   .manage .content {
     height: 100%; }
     .manage .content .leftmenu {
       height: 100%;
-      width: 240px; }
+      width: 200px; }
       .manage .content .leftmenu ul {
         height: 100%; }
     .manage .content .mainview {
