@@ -252,7 +252,8 @@ body {
       border-bottom: none; }
     .card-list .el-card .news-content {
       margin-bottom: 20px;
-      line-height: 1.5; }
+      line-height: 1.5;
+      height: 100px; }
     .card-list .el-card .news-otherinfo {
       border-top: 1px solid #ccc;
       padding-top: 15px;
