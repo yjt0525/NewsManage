@@ -1,8 +1,10 @@
 @charset "UTF-8";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -90,9 +92,12 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
 
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -104,34 +109,42 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 html,
 body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
+
 
 /*
    flex：定义布局为盒模型
@@ -142,46 +155,58 @@ body {
    flex-pack-justify：子元素两端对齐
    兼容性：ios 4+、android 2.3+、winphone8+
 */
+
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+}
 
 .flex-v {
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .flex-1 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1;
+}
 
 .flex-align-center {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .flex-pack-center {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .flex-pack-justify {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .pagination {
-  margin-top: 60px; }
-  .pagination .el-pagination {
-    text-align: center; }
+  margin-top: 60px;
+}
+
+.pagination .el-pagination {
+  text-align: center;
+}
+
+/* 登陆 */
 
 .login {
   width: 350px;
@@ -193,85 +218,139 @@ body {
   left: 50%;
   margin-left: -175px;
   top: 25%;
-  box-shadow: 0 0 25px #cac6c6; }
-  .login .title {
-    margin-bottom: 25px; }
+  box-shadow: 0 0 25px #cac6c6;
+}
+
+.login .title {
+  margin-bottom: 25px;
+}
+
+/* 新闻管理首页 */
 
 .manage {
   width: 100%;
-  height: 100%; }
-  .manage .headbar {
-    height: 70px;
-    line-height: 70px;
-    background: #324157;
-    padding-right: 50px; }
-    .manage .headbar .logo {
-      width: 200px;
-      float: left;
-      height: 100%;
-      padding: 10px 5px; }
-      .manage .headbar .logo img {
-        width: 100%;
-        height: 100%; }
-    .manage .headbar .operation {
-      float: right;
-      color: #fff; }
-      .manage .headbar .operation button {
-        background: #324157;
-        border-color: #324157; }
-  .manage .content {
-    height: 100%; }
-    .manage .content .leftmenu {
-      height: 100%;
-      width: 200px; }
-      .manage .content .leftmenu ul {
-        height: 100%; }
-    .manage .content .mainview {
-      width: 100%;
-      height: 100%;
-      padding: 30px;
-      overflow: auto; }
+  height: 100%;
+}
+
+.manage .headbar {
+  height: 70px;
+  line-height: 70px;
+  background: #ffffff;
+  padding-right: 50px;
+}
+
+.manage .headbar .logo {
+  width: 200px;
+  float: left;
+  height: 100%;
+  padding: 10px 5px;
+}
+
+.manage .headbar .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.manage .headbar .operation {
+  float: right;
+  color: #fff;
+}
+
+.manage .headbar .operation em{
+    display: inline-block;
+    color: #333333;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.manage .headbar .operation button {
+  background: #ED4040;
+  border-color: #ED4040;
+  color: #fff
+}
+
+.manage .content {
+  height: 100%;
+}
+
+.manage .content .leftmenu {
+  height: 100%;
+  width: 200px;
+}
+
+.manage .content .leftmenu ul {
+  height: 100%;
+  background: #ffffff;
+}
+
+.manage .content .mainview {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  overflow: auto;
+  background: #f1f1f1
+}
 
 .header-operation {
-  background: #e1e1e1;
-  padding: 10px 20px; }
-  .header-operation .el-form-item {
-    margin: 0; }
+  background: #ffffff;
+  padding: 10px 20px;
+}
+
+.header-operation .el-form-item {
+  margin: 0;
+}
 
 .card-list {
   overflow: hidden;
   margin-top: 30px;
   flex-wrap: wrap;
-  -ms-flex-wrap: wrap; }
-  .card-list .el-card {
-    width: 24%;
-    margin: 10px 1% 10px 0; }
-    .card-list .el-card .el-card__header {
-      padding-bottom: 0;
-      font-size: 20px;
-      border-bottom: none; }
-    .card-list .el-card .news-content {
-      margin-bottom: 20px;
-      line-height: 1.5;
-      height: 100px; }
-    .card-list .el-card .news-otherinfo {
-      border-top: 1px solid #ccc;
-      padding-top: 15px;
-      overflow: hidden;
-      color: #999; }
-      .card-list .el-card .news-otherinfo > div {
-        float: left;
-        padding: 5px; }
-      .card-list .el-card .news-otherinfo .remove-news {
-        float: right;
-        margin-top: -7px; }
-      .card-list .el-card .news-otherinfo .news-type {
-        border: 1px solid #3399ff;
-        border-radius: 5px;
-        color: #3399ff;
-        margin-right: 15px; }
+  -ms-flex-wrap: wrap;
+}
+
+.card-list .el-card {
+  width: 24%;
+  margin: 10px 1% 10px 0;
+}
+
+.card-list .el-card .el-card__header {
+  padding-bottom: 0;
+  font-size: 20px;
+  border-bottom: none;
+}
+
+.card-list .el-card .news-content {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  height: 100px;
+}
+
+.card-list .el-card .news-otherinfo {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  overflow: hidden;
+  color: #999;
+}
+
+.card-list .el-card .news-otherinfo>div {
+  float: left;
+  padding: 5px;
+}
+
+.card-list .el-card .news-otherinfo .remove-news {
+  float: right;
+  margin-top: -7px;
+}
+
+.card-list .el-card .news-otherinfo .news-type {
+  border: 1px solid #3399ff;
+  border-radius: 5px;
+  color: #3399ff;
+  margin-right: 15px;
+}
 
 .newsadd {
-  width: 500px; }
+  width: 500px;
+}
+
 
 /*# sourceMappingURL=main.css.map */
