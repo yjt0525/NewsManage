@@ -17,8 +17,8 @@
     -ms-flex-wrap: wrap;
     .el-card {
         // float: left;
-        width: 24%;
-        margin: 10px 1% 10px 0;
+        width: 23%;
+        margin: 10px 1%;
         .el-card__header {
             padding-bottom: 0;
             font-size: 20px;
@@ -43,9 +43,9 @@
                 margin-top: -7px;
             }
             .news-type {
-                border: 1px solid #ed4040;
+                border: 1px solid #ED4040;
                 border-radius: 5px;
-                color: #ed4040;
+                color: #ED4040;
                 margin-right: 15px;
             }
             button{
@@ -58,14 +58,14 @@
 
 @media screen and (min-width: 1260px) and (max-width: 1600px) {
     .card-list .el-card {
-        width: 32%;
-        margin-right: 10px;
+        width: 31%;
+        margin: 10px 1%;
     }
 }
 
 @media screen and (max-width: 1260px) {
     .card-list .el-card {
-        width: 49%;
-        margin-right: 5px;
+        width: 48%;
+        margin: 10px 1%;
     }
 }
