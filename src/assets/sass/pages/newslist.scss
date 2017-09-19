@@ -1,8 +1,12 @@
 .header-operation {
-    background: #e1e1e1;
+    background: #ffffff;
     padding: 10px 20px;
     .el-form-item {
         margin: 0;
+    }
+    button{
+        background: #ed4040;
+        border-color: #ed4040;
     }
 }
 
@@ -39,10 +43,14 @@
                 margin-top: -7px;
             }
             .news-type {
-                border: 1px solid #3399ff;
+                border: 1px solid #ed4040;
                 border-radius: 5px;
-                color: #3399ff;
+                color: #ed4040;
                 margin-right: 15px;
+            }
+            button{
+                background: #ed4040;
+                border-color: #ed4040;
             }
         }
     }

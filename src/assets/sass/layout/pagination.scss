@@ -3,4 +3,11 @@
     .el-pagination{
         text-align:center;
     }
+    .el-pager{
+        li:hover,li.active{
+            background: #ed4040;
+            border-color: #ed4040;
+            color: #fff;
+        }
+    }
 }
