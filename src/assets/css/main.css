@@ -229,7 +229,7 @@ body {
         background: #ffffff; }
       .manage .content .leftmenu .el-menu-item-group__title {
         padding-top: 0; }
-      .manage .content .leftmenu .el-submenu__title:hover, .manage .content .leftmenu .el-menu-item:hover {
+      .manage .content .leftmenu .el-submenu__title:hover, .manage .content .leftmenu .el-menu-item:hover, .manage .content .leftmenu .el-menu-item.is-active:hover {
         background: #ed4040;
         color: #fff; }
       .manage .content .leftmenu .el-menu-item.is-active {
