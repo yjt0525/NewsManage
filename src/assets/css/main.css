@@ -271,6 +271,14 @@ body {
         color: #3399ff;
         margin-right: 15px; }
 
+@media screen and (min-width: 1260px) and (max-width: 1600px) {
+  .card-list .el-card {
+    width: 32%;
+    margin-right: 10px; } }
+@media screen and (max-width: 1260px) {
+  .card-list .el-card {
+    width: 49%;
+    margin-right: 5px; } }
 .newsadd {
   width: 500px; }
 
