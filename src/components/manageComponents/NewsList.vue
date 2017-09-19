@@ -6,7 +6,7 @@
                     <el-input placeholder="请输入关键词" icon="search" v-model="keyword" :on-icon-click="bindsearch"></el-input>
                 </el-form-item>
                 <el-form-item>
-                    <el-button type="primary" @click="addnews">新增</el-button>
+                    <el-button type="danger" @click="addnews">新增</el-button>
                 </el-form-item>
             </el-form>
         </div>

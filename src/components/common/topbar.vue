@@ -5,7 +5,7 @@
             </div>
             <div class="operation">
                 <em>用户名</em>
-                <el-button type="primary" @click="logout">
+                <el-button type="danger" @click="logout">
                     注销
                 </el-button>
             </div>

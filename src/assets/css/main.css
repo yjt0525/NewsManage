@@ -210,9 +210,6 @@ body {
     .manage .headbar .operation {
       float: right;
       color: #fff; }
-      .manage .headbar .operation button {
-        background: #ed4040;
-        border-color: #ed4040; }
       .manage .headbar .operation em {
         color: #333;
         display: inline-block;
@@ -229,7 +226,9 @@ body {
         background: #ffffff; }
       .manage .content .leftmenu .el-menu-item-group__title {
         padding-top: 0; }
-      .manage .content .leftmenu .el-submenu__title:hover, .manage .content .leftmenu .el-menu-item:hover, .manage .content .leftmenu .el-menu-item.is-active:hover {
+      .manage .content .leftmenu .el-submenu__title:hover,
+      .manage .content .leftmenu .el-menu-item:hover,
+      .manage .content .leftmenu .el-menu-item.is-active:hover {
         background: #ed4040;
         color: #fff; }
       .manage .content .leftmenu .el-menu-item.is-active {
@@ -246,9 +245,6 @@ body {
   padding: 10px 20px; }
   .header-operation .el-form-item {
     margin: 0; }
-  .header-operation button {
-    background: #ed4040;
-    border-color: #ed4040; }
 
 .card-list {
   overflow: hidden;
@@ -282,9 +278,6 @@ body {
         border-radius: 5px;
         color: #ED4040;
         margin-right: 15px; }
-      .card-list .el-card .news-otherinfo button {
-        background: #ed4040;
-        border-color: #ed4040; }
 
 @media screen and (min-width: 1260px) and (max-width: 1600px) {
   .card-list .el-card {
@@ -296,5 +289,10 @@ body {
     margin: 10px 1%; } }
 .newsadd {
   width: 500px; }
+
+.el-message-box .el-button--primary,
+.el-message-box .el-button--primary:hover {
+  background: #ED4040;
+  border-color: #ED4040; }
 
 /*# sourceMappingURL=main.css.map */

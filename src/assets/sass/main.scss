@@ -1,3 +1,4 @@
+$themered:#ED4040;
 @import 'layout/reset.scss';
 @import 'layout/compatible.scss';
 @import 'layout/pagination.scss';
@@ -5,3 +6,8 @@
 @import 'pages/manage.scss';
 @import 'pages/newslist.scss';
 @import 'pages/newsadd.scss';
+.el-message-box .el-button--primary,
+.el-message-box .el-button--primary:hover {
+    background: $themered;
+    border-color: $themered;
+}

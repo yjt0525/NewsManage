@@ -14,7 +14,7 @@
                 <el-input type="textarea" v-model="form.newscontent" rows="15"></el-input>
             </el-form-item>
             <el-form-item>
-                <el-button type="primary" @click="onSubmit('form')">新增</el-button>
+                <el-button type="danger" @click="onSubmit('form')">新增</el-button>
                 <el-button @click="clearForm('form')">重置</el-button>
             </el-form-item>
         </el-form>

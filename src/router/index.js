@@ -5,10 +5,10 @@ import Manage from '@/components/view/Manage'
 import NewsList from '@/components/manageComponents/NewsList'
 import NewsAdd from '@/components/manageComponents/NewsAdd'
 
-import '../assets/css/main.css';
+
 import 'element-ui/lib/theme-default/index.css'
 import ElementUI from 'element-ui'
-
+import '../assets/css/main.css';
 Vue.use(Router)
 Vue.use(ElementUI)
 
