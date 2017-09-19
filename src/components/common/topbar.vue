@@ -4,7 +4,7 @@
                 <img src="../../assets/img/logo.png" />
             </div>
             <div class="operation">
-                    <em>用户名</em>
+                <em>用户名</em>
                 <el-button type="primary" @click="logout">
                     注销
                 </el-button>
