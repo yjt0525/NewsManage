@@ -250,7 +250,8 @@ body {
   overflow: hidden;
   margin-top: 30px;
   flex-wrap: wrap;
-  -ms-flex-wrap: wrap; }
+  -ms-flex-wrap: wrap;
+  background: #ffffff; }
   .card-list .el-card {
     width: 23%;
     margin: 10px 1%; }

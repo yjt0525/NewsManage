@@ -3,7 +3,7 @@
         <el-menu router :default-active="$route.path" class="el-menu-vertical-demo" theme="light">
             <el-submenu index="1">
                 <template slot="title"><i class="el-icon-message"></i>新闻管理</template>
-                <el-menu-item-group>
+                <el-menu-item-group></el-menu-item-group>
                     <el-menu-item index="/manage/newslist">新闻总览</el-menu-item>
                     <el-menu-item index="/manage/newsadd">新闻添加</el-menu-item>
                 </el-menu-item-group>

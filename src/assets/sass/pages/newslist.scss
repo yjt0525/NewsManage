@@ -11,6 +11,7 @@
     margin-top: 30px;
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    background: #ffffff;
     .el-card {
         // float: left;
         width: 23%;
@@ -44,10 +45,6 @@
                 color: $themered;
                 margin-right: 15px;
             }
-            // button {
-            //     background: #ed4040;
-            //     border-color: #ed4040;
-            // }
         }
     }
 }
