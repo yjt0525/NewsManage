@@ -10,7 +10,7 @@
                 </el-form-item>
             </el-form>
         </div>
-        <div class='card-list flex'>
+        <div class='card-list'>
             <el-card v-for="(item,index) in newslist" :key="item.id" class="box-card">
                 <div slot="header" class="clearfix news-title">
                     <span style="line-height: 36px;">{{ item.newstitle }}</span>

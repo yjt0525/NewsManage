@@ -9,12 +9,10 @@
 .card-list {
     overflow: hidden;
     margin-top: 30px;
-    flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     .el-card {
         // float: left;
-        width: 23%;
-        margin: 10px 1%;
+        width: 100%;
+        margin: 10px 0;
         .el-card__header {
             padding-bottom: 0;
             font-size: 20px;
@@ -23,7 +21,7 @@
         .news-content {
             margin-bottom: 20px;
             line-height: 1.5;
-            height: 100px;
+            height: 40px;
         }
         .news-otherinfo {
             border-top: 1px solid #ccc;
@@ -52,16 +50,16 @@
     }
 }
 
-@media screen and (min-width: 1260px) and (max-width: 1600px) {
-    .card-list .el-card {
-        width: 31%;
-        margin: 10px 1%;
-    }
-}
+// @media screen and (min-width: 1260px) and (max-width: 1600px) {
+//     .card-list .el-card {
+//         width: 31%;
+//         margin: 10px 1%;
+//     }
+// }
 
-@media screen and (max-width: 1260px) {
-    .card-list .el-card {
-        width: 48%;
-        margin: 10px 1%;
-    }
-}
+// @media screen and (max-width: 1260px) {
+//     .card-list .el-card {
+//         width: 48%;
+//         margin: 10px 1%;
+//     }
+// }
